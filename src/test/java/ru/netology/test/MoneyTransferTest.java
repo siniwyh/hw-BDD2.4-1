@@ -38,7 +38,7 @@ class MoneyTransferTest {
         var actualBalance1 = dashboardPage.getCardBalance(firstCardInfo);
         var actualBalance2 = dashboardPage.getCardBalance(secondCardInfo);
         Assertions.assertEquals(firstCardBalance - amount, actualBalance1);
-        Assertions.assertEquals(secondCardBalance + amount, actualBalance1);
+        Assertions.assertEquals(secondCardBalance + amount, actualBalance2);
 
     }
 
